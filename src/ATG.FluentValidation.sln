@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATG.FluentValidation.API", "ATG.FluentValidation.API\ATG.FluentValidation.API.csproj", "{88B41FBD-925A-43A9-9811-F1D57455134B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATG.FluentValidation.Aplicacao", "ATG.FluentValidation.Aplicacao\ATG.FluentValidation.Aplicacao.csproj", "{E2656056-251B-4333-AE9E-7AECD902E4E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATG.FluentValidation.Dominio", "ATG.FluentValidation.Dominio\ATG.FluentValidation.Dominio.csproj", "{DBEE68D0-6CA6-4EFB-A4EF-3A13AD1ECB37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATG.FluentValidation.Infra", "ATG.FluentValidation.Infra\ATG.FluentValidation.Infra.csproj", "{006D7FB8-3C3C-44D2-8F73-05AAF0A6B875}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{25AA7C98-BEC7-49B3-B370-746BD02E4B1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATG.Core", "ATG.Core\ATG.Core.csproj", "{E2505684-5581-45E2-ABD7-91D8BE50F9A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88B41FBD-925A-43A9-9811-F1D57455134B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B41FBD-925A-43A9-9811-F1D57455134B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B41FBD-925A-43A9-9811-F1D57455134B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B41FBD-925A-43A9-9811-F1D57455134B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2656056-251B-4333-AE9E-7AECD902E4E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2656056-251B-4333-AE9E-7AECD902E4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2656056-251B-4333-AE9E-7AECD902E4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2656056-251B-4333-AE9E-7AECD902E4E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBEE68D0-6CA6-4EFB-A4EF-3A13AD1ECB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBEE68D0-6CA6-4EFB-A4EF-3A13AD1ECB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBEE68D0-6CA6-4EFB-A4EF-3A13AD1ECB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBEE68D0-6CA6-4EFB-A4EF-3A13AD1ECB37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006D7FB8-3C3C-44D2-8F73-05AAF0A6B875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006D7FB8-3C3C-44D2-8F73-05AAF0A6B875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006D7FB8-3C3C-44D2-8F73-05AAF0A6B875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006D7FB8-3C3C-44D2-8F73-05AAF0A6B875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2505684-5581-45E2-ABD7-91D8BE50F9A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2505684-5581-45E2-ABD7-91D8BE50F9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2505684-5581-45E2-ABD7-91D8BE50F9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2505684-5581-45E2-ABD7-91D8BE50F9A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2505684-5581-45E2-ABD7-91D8BE50F9A7} = {25AA7C98-BEC7-49B3-B370-746BD02E4B1D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53A72310-4B54-4CF5-A8F9-AD1A45BC077F}
+	EndGlobalSection
+EndGlobal
